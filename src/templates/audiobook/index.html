@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block content %}
+<div class="mx-auto">
+    <h1 id="center">AudioBook Reader</h1>
+</div>
+
+<div class="mx-auto" style="width: 390px; margin-top: 150px; margin-left: 50%;">
+
+    <h4 id="audio-select">Select the PDF File to Hear!</h4>
+    <form action="" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="input-group mb-3">
+            <div class="custom-file">
+                {{ form.file_field }}
+                <label class="custom-file-label" for="inputGroupFile03">
+                    Choose file
+                </label>
+            </div>
+        </div>
+        <input type="submit" value="Hear it!" class="btn btn-primary" style="width: 150px; margin-left: 120px;" />
+    </form>
+</div>
+{% endblock content %}
+
+{% block script %}
+<script>
+    let form_fields = document.getElementsByTagName('input')
+
+    form_fields[1].className += " custom-file-input"
+    form_fields[1].id += " inputGroupFile03"
+</script>
+{% endblock script %}

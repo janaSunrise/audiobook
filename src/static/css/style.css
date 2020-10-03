@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans&display=swap');
+
+body {
+    font-family: 'Expletus Sans', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+#center 
+{
+    text-align: center;
+    font-size: 55px;
+}
+
+#audio-select {
+    font-size: 30px;
+}
+
+#loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: -webkit-translate(-50%, -50%);
+    transform: -moz-translate(-50%, -50%);
+    transform: -ms-translate(-50%, -50%);
+}
