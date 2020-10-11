@@ -10,7 +10,7 @@ SECRET_KEY = '=@gq_6e8ccuogj)lh0lxk_ttc%-lp90+!p6&pm35!z^il-w!@0'
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    'audiobook.com',
+    'janasunrise.pythonanywhere.com',
     'localhost',
     '127.0.0.1'
 ]
