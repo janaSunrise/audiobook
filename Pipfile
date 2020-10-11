@@ -10,6 +10,8 @@ pyttsx3 = "*"
 pypdf2 = "*"
 colorama = "*"
 django = "*"
+gunicorn = "*"
+django-heroku = "*"
 
 [scripts]
 start = "python src/manage.py runserver"
