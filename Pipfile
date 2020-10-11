@@ -12,6 +12,7 @@ colorama = "*"
 django = "*"
 gunicorn = "*"
 django-heroku = "*"
+whitenoise = "*"
 
 [scripts]
 start = "python src/manage.py runserver"
