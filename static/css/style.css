@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Expletus+Sans&display=swap');
+
+body {
+    font-family: 'Expletus Sans', cursive;
+    margin: 0;
+    padding: 0;
+    background: url("/static/images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+}
+
+#center 
+{
+    text-align: center;
+    font-size: 55px;
+}
+
+#audio-select {
+    font-size: 35px;
+    color: white;
+}
+
+#loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: -webkit-translate(-50%, -50%);
+    transform: -moz-translate(-50%, -50%);
+    transform: -ms-translate(-50%, -50%);
+}
+
+#text-black {
+    color: black;
+}
+
+#text-white {
+    color: white;
+}
+
+audio:hover, audio:focus, audio:active {
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+}
+
+audio {
+    transition: all 0.5s linear;
+    box-shadow: 2px 2px 4px 0px #006773;
+    border-radius: 7px;
+    
+}
