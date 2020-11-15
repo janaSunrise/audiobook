@@ -2,3 +2,4 @@ espeak
 ffmpeg
 libespeak1
 libespeak-dev
+libpulse

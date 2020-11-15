@@ -17,6 +17,3 @@ django-heroku = "*"
 start = "python manage.py runserver"
 migrate = "python manage.py migrate"
 makemigrations = "python manage.py makemigrations"
-
-[requires]
-python_version = "3.9"
